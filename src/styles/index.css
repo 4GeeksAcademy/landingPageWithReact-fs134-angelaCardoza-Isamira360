@@ -9,3 +9,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+nav{
+background-color: rgb(66, 64, 64);
+}
+
+ .nav-link {
+  color: white;
+}
+
+.nav-link active{
+
+    color: white;
+}
+
+.navbar-brand{
+
+    color: white;
+}
