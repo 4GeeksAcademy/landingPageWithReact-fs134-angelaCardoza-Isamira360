@@ -3,8 +3,8 @@ import react from "react";
 const Card= () => {
 
 return(
-
-<div class="card" >
+<div className="col-sm-12 col-md-6 col-lg-3">
+<div className="card" >
   <img src="..." class="card-img-top" alt="..."/> 
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
@@ -13,7 +13,7 @@ return(
   </div>
 </div>
 
-
+</div>
 
 )
 
