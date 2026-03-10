@@ -11,32 +11,44 @@
 */
 
 nav{
-background-color: rgb(66, 64, 64);
+background-color: rgb(218, 109, 109);
 }
 
- .nav-link {
-  color: rgb(206, 203, 203);
-}
-
-.nav-link active{
+ .navbar-brand{
 
     color: white;
 }
 
-.navbar-brand{
-
-    color: white;
+.jumbotron-main{  
+    background-color: rgba(229, 193, 193, 0.395);
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: start;
+    text-align: justify;
+    border-radius: 0.3rem;
 }
 
-footer{
-
-
-    background-color: grey;
+.card-main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.container{
-
-     border: 2px solid rgb(207, 19, 19);
+.my-footer{
+    background-color: rgb(218, 109, 109);
+    height: 4rem;
 }
 
 
+span{
+color: white;    
+}
+
+.nav-link{
+  color: #bbb;
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  color: white;
+  font-weight: 1000;
+}

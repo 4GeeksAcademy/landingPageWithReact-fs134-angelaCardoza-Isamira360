@@ -10,15 +10,16 @@ import Footer from "./Footer"
 const Home = () => {
 	return (
 
-
 		<div className="text-center">
 			<Navbar />
+			
 			<div className="container">
 				<Jumbotron />
 				<div className="row">
 					<Card /><Card /><Card /><Card />
 				</div>
 			</div>
+
 			<Footer />
 
 		</div>

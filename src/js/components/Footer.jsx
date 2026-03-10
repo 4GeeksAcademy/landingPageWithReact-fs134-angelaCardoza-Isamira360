@@ -4,9 +4,9 @@ const Footer= () => {
 
 return(
 
-    <footer>
+    <footer className="my-footer">
 
-        <span>esto es mi footer</span>
+        <span>Copyright © wwww.novamakeup.com</span>
 
     </footer>
 
