@@ -1,23 +1,25 @@
 import react from "react";
 
-const Card= () => {
+const Card = ({ productImage, productName, precio }) => {
 
-return(
-<div className="col-sm-12 col-md-6 col-lg-3 card-main">
-<div className="card" >
-  <img src="https://image.made-in-china.com/202f0j00RsbodFcaAPqf/No-Logo-Vegan-Matte-Full-Coverage-Foundation-Lightweight-Liquid-Foundation-Makeup.webp" class="card-img-top" alt="..."/> 
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-  </div>
-  <div className="card-footer bg-light">
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+  return (
+    <div className="col-sm-12 col-md-6 col-lg-3">
+      <div className="card-main ">
+        <div className="card" >
+          <img className="card-img-top" src={productImage} alt="aqui va una imagen" />
+          <div className="card-body">
+            <h5 className="card-title">{productName}</h5>
+            <p className="card-text"> {precio}</p>
+          </div>
+          <div className="card-footer bg-light">
+            <a href="#" className="btn btn-primary">ver más</a>
+          </div>
+        </div>
 
-</div>
+      </div>
 
-)
+    </div>
+  )
 
 
 

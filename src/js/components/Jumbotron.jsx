@@ -15,7 +15,7 @@ const Jumbotron = () => {
             sofisticado para ocasiones especiales, aquí podrás encontrar la inspiración y los productos 
             ideales para expresar tu estilo con confianza. 💄✨</p>
 
-            <a href="#" class="btn btn-primary">Ver productos</a>
+            <a href="#" className="btn btn-primary">Ver productos</a>
 
         </div>
 
